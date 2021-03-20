@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Square</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Truculenta:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="background">
+
+        <div class="title">
+            <div class="me">
+
+            </div>
+            <h1>Hey there !</h1>
+            <!-- <p id="hwr">How are you </p> -->
+            <p id="about" class="para">I am Sai, I am pursuing my Bachelors in Electronics <br /> I love to Experiment
+               new things and keep adding skills to my portfolio. </p>
+            <!-- <p id="about1" class="para"> i love to code so this is my portfolio </p> -->
+        </div>
+        <div class="overlay">
+        </div>
+    </div>
+
+    <section class="container">
+        <div class="overlay2"></div>
+
+        <h1 class="heading">My Skills</h1>
+        <div id="skills">
+            <div class="box" id="box1">
+                <img src="3.jpg" alt=" " id="img1">
+                <h2 class="headin">Web Development</h2>
+                <p>
+                    I started Web Development in the lockdown.I feel it extremely intresting and learned a decent amout of
+                    knowledge in web Develpment and still immensely curious to learn more.
+                </p>
+
+            </div>
+
+            <div class="box" id="box3">
+                <img src="1.png" alt="" id="img3">
+                <h2 class="heading2">Photography</h2>
+                <p>
+                    I want my images to evoke a narrative, but in a way that is open to interpretation.My images are
+                    fabricated, because I love the ability to control what hapens.
+                </p>
+            </div>
+            <div class="box" id="box2">
+                <img src="2.png" alt="" id="img2">
+                <h2 class="heading2">Editing</h2>
+                <p>
+                    <!-- Editing is the process of bringing out the hidden beauty of an image or an video.
+                    Video editing is art of editing video images such that even a dumb video can be alive again. -->
+                    I have a sufficient knowlwdge on Adobe Premium pro, After effects, Photoshop. Identifying innovative
+                    approaches and applying to the content.
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- <h1 class="gallery">Gallery</h1> -->
+        <h1 class="gallery"> Gallery </h1>
+        <div class="photo">
+            <img src="img 1.jpg" alt="" id="photo1">
+        </div>
+        <div class="photo">
+            <img src="img 2.jpg" alt="" id="photo2">
+        </div>
+        <div class="photo">
+            <img src="img 3.jpg" alt="" id="photo3">
+        </div>
+        <div class="photo">
+            <img src="img 4.jpeg" alt="" id="photo4">
+        </div>
+        <div class="photo">
+            <img src="img 5.jpeg" alt="" id="photo5">
+        </div>
+        <div class="photo">
+            <img src="img 6.jpeg" alt="" id="photo6">
+        </div>
+    </main>
+    <!-- submit thing -->
+
+    <div class="overla">
+        <h1 class="feed">
+            If you like my portfolio !</h1>
+        <form id="enter">
+            <!-- <input type="text" name="username" placeholder="Enter the feedback"> -->
+            <textarea name="username" id="" cols="30" rows="10" placeholder="Enter the feedback"></textarea>
+
+            <button>Sumbit</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footercon">
+            <h3>Social Media</h3>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+    <!-- javascript -->
+    <script>
+        let form = document.getElementById('enter');
+        form.onsubmit = function (e) {
+            e.preventDefault();
+            console.log(form.username.value);
+        };
+    </script>
+
+
+</body>
+
+</html>
